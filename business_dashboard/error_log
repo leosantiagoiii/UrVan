@@ -1,0 +1,16 @@
+[14-Jan-2019 10:12:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:13:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[14-Jan-2019 10:14:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cp040539/public_html/business_dashboard/member_dashboard.php on line 10
+[22-Jan-2019 16:54:17 Asia/Manila] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 124
+[22-Jan-2019 16:54:17 Asia/Manila] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 288
+[22-Jan-2019 16:54:17 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 350
+[23-Jan-2019 12:37:58 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 268
+[23-Jan-2019 12:37:58 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 350
+[23-Jan-2019 13:47:31 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 350
+[23-Jan-2019 13:47:58 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 350
+[26-Jan-2019 12:37:30 Asia/Manila] PHP Warning:  max(): Array must contain at least one element in /home/cp040539/public_html/business_dashboard/admin_no_of_accs.php on line 268
