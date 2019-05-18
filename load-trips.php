@@ -1,7 +1,7 @@
 <?php
 require "includes/dbconnect.inc.php";
 $cum=$_POST['newcom'];
-$query="SELECT * FROM tours_and_packages_table ORDER BY tour_name LIMIT $cum";
+$query="SELECT * FROM tours_and_packages_table WHERE tour_id NOT IN (SELECT tour_id FROM tours_and_packages_single) ORDER BY tour_name LIMIT $cum";
 $result=mysqli_query($conn,$query);
 if(mysqli_num_rows($result)>0){
 while($row = mysqli_fetch_assoc($result)){

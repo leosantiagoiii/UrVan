@@ -92,7 +92,7 @@ if(isset($_SESSION['adminid'])){
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row form-group">
                             <div class="col-lg-6">
                                 <label for="">Will go thru Manila/NCR?</label>
                                 <select required class="form-control" name="NCR_choice" id="">
@@ -104,6 +104,24 @@ if(isset($_SESSION['adminid'])){
                             <div class="col-lg-6">
                                 <label for="">Single Trips?</label>
                                 <select required class="form-control" name="single_trip" id="">
+                                    <option>---</option>
+                                    <option value="YES">Yes</option>
+                                    <option value="NO">No</option>
+                                </select>
+                            </div>
+                        </div>   
+                        <div class="row form-group">
+                            <div class="col-lg-6">
+                                <label for="">Single Location Trip</label>
+                                <select required class="form-control" name="singleloc" id="">
+                                    <option>---</option>
+                                    <option value="YES">Yes</option>
+                                    <option value="NO">No</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Multicity</label>
+                                <select required class="form-control" name="multicity" id="">
                                     <option>---</option>
                                     <option value="YES">Yes</option>
                                     <option value="NO">No</option>

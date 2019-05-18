@@ -1399,7 +1399,8 @@ $forClient=mysqli_fetch_assoc($query); //important
                         <?php
                         $all=mysqli_query($conn,"SELECT * FROM tours_and_packages_single WHERE tour_id='$tour_id'");
                         $cco=mysqli_num_rows($all); ?>
-                        <h1 style="font-family:bebas;font-weight:500;font-size:45px;text-align:right;"><?php echo $tour_name;?><br><u><?php if($cco>=1){echo "Single Trip";} ?></u></h1>
+                        <h1 style="font-family:bebas;font-weight:500;font-size:45px;text-align:right;">Multicity</h1>
+                        <!-- <h1 style="font-family:bebas;font-weight:500;font-size:45px;text-align:right;"><?php //echo $tour_name;?><br><u><?php //if($cco>=1){echo "Single Trip";} ?></u></h1> -->
                         <div class="row form-group">
                               <?php
                               if($cco<=0){ ?>

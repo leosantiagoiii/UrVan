@@ -11,7 +11,7 @@
 			$cco=mysqli_num_rows($all); ?>
 			<input type="hidden" name="tour_id" value="<?php echo $row['tour_id']; ?>">
 			<input type="hidden" name="tour_name" value="<?php echo $row['tour_name']; ?>">
-			<h1 class="h1-trip-name"><?php echo $row['tour_name']; if($cco>=1){echo " <u>(SINGLE TRIP)</u>";} ?></h1>
+			<h1 class="h1-trip-name"><?php echo $row['tour_name']; if($cco>=1){echo " <u>(1 DAY TRIP)</u>";} ?></h1>
 			<img style="border-style:solid;margin-bottom:20px;width:80%;object-fit: cover;height:450px" src="includes/tour_and_packages_image_get.inc.php?tour_id=<?php echo $row['tour_id']; ?>">
 			<h3 class="h3-trip-price">Php<?php echo $row['tour_price']; ?> per van</h3>
 			<p>

@@ -9,6 +9,8 @@ $longitude=$_POST['longitude'];
 $completeadd=$_POST['completeadd'];
 $NCR_choice=$_POST['NCR_choice'];
 $single_trip=$_POST['single_trip'];
+$multicity=$_POST['multicity'];
+$singleloc=$_POST['singleloc'];
 
 if(!isset($file)){
     echo "Please select an image";
@@ -62,6 +64,14 @@ if($single_trip=="YES"){
     mysqli_query($conn,"INSERT INTO tours_and_packages_single (tour_id) VALUES ('$lastid')");
 }
 // 
+
+if($multicity=="YES"){
+    mysqli_query($conn,"INSERT INTO tours_and_packages_multicity (tour_id) VALUES ('$lastid')");
+}
+
+if($singleloc=="YES"){
+    mysqli_query($conn,"INSERT INTO tours_and_packages_singletrip (tour_id) VALUES ('$lastid')");
+}
 
 
 if(isset($_FILES['tours_gallery']['name'])){

@@ -1510,6 +1510,16 @@ mysqli_query($conn,$hanap);
                                                 <li class="nav-item">
                                                       <a class="nav-link" href="tours.php">Tours & Packages</a>
                                                 </li>
+                                                <li class="nav-item dropdown">
+                                                      <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Rent-A-Van
+                                                      </a>
+                                                      <div class="dropdown-menu dropdown-h" aria-labelledby="navbarDropdownMenuLink">
+                                                            <a class="dropdown-item" href="singletrip.php">Single Trip</a>
+                                                            <a class="dropdown-item" href="book_trip.php?tour_id=11&tour_name=Metro+Manila">Multi City</a>
+                                                      </div>
+                                                </li>
                                                 <li class="nav-item">
                                                       <a href="contact-us.php" class="nav-link">Contact Us</a>
                                                 </li>
